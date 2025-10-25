@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #
 # Top level makefile
 #
@@ -25,3 +26,6 @@ clean:
 	-rm -rf build/
 	-rm -f *.o
 	-rm -f *.a
+=======
+gcc -o server main.c -lcoap-3
+>>>>>>> c27636b (initial commit)
